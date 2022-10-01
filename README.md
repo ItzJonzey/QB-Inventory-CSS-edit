@@ -1,8 +1,6 @@
-# Studio-PLAYERS
-Here is our CSS reedit of QB-Core's inventory. It is customized for our server so you maybe have to edit app.js and other things
-
 # qb-inventory
-### License
+
+# License
 
     QBCore Framework
     Copyright (C) 2021 Joshua Eger
@@ -29,7 +27,13 @@ Here is our CSS reedit of QB-Core's inventory. It is customized for our server s
 - [qb-shops](https://github.com/qbcore-framework/qb-shops) - Needed in order to add shops
 
 ## Screenshots
-![General](https://media.discordapp.net/attachments/620596683474075650/1025814263345975367/unknown.png)
+![General](https://i.imgur.com/GR0MDFN.png)
+![ID Card](https://i.imgur.com/C6gAOWi.png)
+![Weapon](https://i.imgur.com/RbCvHJb.png)
+![Shop](https://i.imgur.com/7Da7UEX.png)
+![Crafting](https://i.imgur.com/peONaL9.png)
+![Glovebox](https://i.imgur.com/LjDEYWa.png)
+![Trunk](https://i.imgur.com/IoGYZbv.png)
 
 ## Features
 - Item crafting

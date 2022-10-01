@@ -89,10 +89,7 @@ end
 ---@param text string The text to display
 local function DrawText3Ds(x, y, z, text)
     SetTextScale(0.35, 0.35)
-    RegisterFontFile('Bebas')
-    fontId = RegisterFontId('Bebas')
-    SetTextFont(fontId)
-    --SetTextFont(4)
+    SetTextFont(4)
     SetTextProportional(1)
     SetTextColour(255, 255, 255, 215)
     SetTextEntry("STRING")
@@ -706,52 +703,52 @@ RegisterCommand('inventory', function()
                 local maxweight
                 local slots
                 if vehicleClass == 0 then
-                    maxweight = 1500
+                    maxweight = 38000
                     slots = 30
                 elseif vehicleClass == 1 then
-                    maxweight = 2500
+                    maxweight = 50000
                     slots = 40
                 elseif vehicleClass == 2 then
-                    maxweight = 3200
+                    maxweight = 75000
                     slots = 50
                 elseif vehicleClass == 3 then
-                    maxweight = 3000
+                    maxweight = 42000
                     slots = 35
                 elseif vehicleClass == 4 then
-                    maxweight = 2300
+                    maxweight = 38000
                     slots = 30
                 elseif vehicleClass == 5 then
-                    maxweight = 2000
+                    maxweight = 30000
                     slots = 25
                 elseif vehicleClass == 6 then
-                    maxweight = 2000
+                    maxweight = 30000
                     slots = 25
                 elseif vehicleClass == 7 then
-                    maxweight = 1000
+                    maxweight = 30000
                     slots = 25
                 elseif vehicleClass == 8 then
-                    maxweight = 400
+                    maxweight = 15000
                     slots = 15
                 elseif vehicleClass == 9 then
-                    maxweight = 2000
+                    maxweight = 60000
                     slots = 35
                 elseif vehicleClass == 12 then
-                    maxweight = 10000
+                    maxweight = 120000
                     slots = 35
                 elseif vehicleClass == 13 then
                     maxweight = 0
                     slots = 0
                 elseif vehicleClass == 14 then
-                    maxweight = 2000
+                    maxweight = 120000
                     slots = 50
                 elseif vehicleClass == 15 then
-                    maxweight = 2000
+                    maxweight = 120000
                     slots = 50
                 elseif vehicleClass == 16 then
-                    maxweight = 10000
+                    maxweight = 120000
                     slots = 50
                 else
-                    maxweight = 1000
+                    maxweight = 60000
                     slots = 35
                 end
                 local other = {
@@ -778,7 +775,7 @@ RegisterCommand('inventory', function()
     end
 end, false)
 
-RegisterKeyMapping('inventory', Lang:t("inf_mapping.opn_inv"), 'keyboard', 'F2')
+RegisterKeyMapping('inventory', Lang:t("inf_mapping.opn_inv"), 'keyboard', 'TAB')
 
 RegisterCommand('hotbar', function()
     isHotbar = not isHotbar
@@ -787,7 +784,7 @@ RegisterCommand('hotbar', function()
     end
 end, false)
 
-RegisterKeyMapping('hotbar', Lang:t("inf_mapping.tog_slots"), 'keyboard', 'TAB')
+RegisterKeyMapping('hotbar', Lang:t("inf_mapping.tog_slots"), 'keyboard', 'z')
 
 for i = 1, 6 do
     RegisterCommand('slot' .. i,function()

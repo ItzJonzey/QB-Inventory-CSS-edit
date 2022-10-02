@@ -1,5 +1,7 @@
 # Studio-PLAYERS
-Here is our CSS reedit of QB-Core's inventory. It is customized for our server so you maybe have to edit app.js and other things
+· Here is our CSS reedit of QB-Core's inventory. It is customized for our server.
+· Also it is translated into Czech  (Czech is in older commits)
+· Now it is default qb-inv with CSS edit
 
 # qb-inventory
 ### License

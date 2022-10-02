@@ -346,8 +346,9 @@ body {
 
 .player-inv-info {
 	position: absolute;
-	left: 14.5%;
+	left: 15.2%;
 	top: 21.2%;
+	width: 26.8%;
 }
 
 #player-inv-label {
@@ -364,18 +365,18 @@ body {
 }
 
 #progressbar {
-    width: 408.6%;
+    width: 100%;
     margin-left: 0%;
-    margin-top: 14.3%;
+    margin-top: 3.8%;
 	height: 10px;
     background-color: rgb(39 39 49);
 	border-radius: 10px;
 }
 
 #progressbar-scnd {
-    width: 360.8%;
-    margin-left: -9.5%;
-    margin-top: 14.3%;
+    width: 100%;/* 360.8%; */
+    margin-left: 0%;/* -2.5%; */
+    margin-top: 3.8%;/* 14.3%; */
 	height: 10px;
     background-color: rgb(39 39 49);
 	border-radius: 10px;
@@ -384,7 +385,7 @@ body {
 .Line {
     background: linear-gradient(to right, #1385ae, #14a7dc 500px);
     height: 10px;
-    max-width: 220%;
+    max-width: 100%;
 	border-radius: 10px;
     transition: width 1s, background-color 1s;
 }
@@ -392,7 +393,7 @@ body {
 .Line-scnd {
     background: linear-gradient(to right, #1385ae, #14a7dc 500px);
     height: 10px;
-    max-width: 220%;
+    max-width: 100%;
 	border-radius: 10px;
     transition: width 1s, background-color 1s;
 }
@@ -444,6 +445,7 @@ body {
 	position: absolute;
 	left: 56%;
 	top: 21.2%;
+	width: 26.8%;
 }
 
 .ply-iteminfo-container {

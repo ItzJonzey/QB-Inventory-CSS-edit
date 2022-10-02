@@ -1,6 +1,6 @@
 # Studio-PLAYERS
 · Here is our CSS reedit of QB-Core's inventory. It is customized for our server.<br>
-· Also it is translated into Czech  (Czech is in older commits).<br>
+· Also it is translated into ~~Czech~~  (Czech is in older commits).<br>
 · Now it is default qb-inv with CSS edit.<br>
 
 # qb-inventory
